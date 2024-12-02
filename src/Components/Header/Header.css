@@ -1,0 +1,35 @@
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.right_container ul,
+.left_container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+header li:hover,
+footer li:hover {
+  cursor: pointer;
+}
+
+.right_container img {
+  width: 150px;
+}
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
