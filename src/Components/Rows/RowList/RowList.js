@@ -43,11 +43,11 @@ const RowList = () => {
       />
       <Row
         title="Netflix TV Show"
-        fetchUrl={requests.fetchDocumentaries}
+        fetchUrl={requests.fetchTvShow}
         isLargeRow={true}
       />
       <Row
-        title="Netflix TV-Show"
+        title="Netflix Documentary"
         fetchUrl={requests.fetchDocumentaries}
         isLargeRow={true}
       />

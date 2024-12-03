@@ -10,9 +10,10 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box ;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #111;
+  min-width: 700px !important;
 }
